@@ -135,6 +135,16 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+*.egg-info/
+
 
 # Spyder project settings
 .spyderproject
@@ -172,3 +182,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dev Containers
+.devcontainer/
+
